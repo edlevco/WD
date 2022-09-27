@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Me</title>
+</head>
+
+<body>
+    <h1>Contact Me</h1>
+    <fieldset>
+        <legend>My details</legend>
+        <a href="mailto:edlevco88@gmail.com">Edlevco88@gmail.com</a>
+        <div>
+            <a href="tel:6472722268">(647) 272-2268</a>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Your details</legend>
+        <form  action="mailto:edlevco88@gmail.com" method="post" enctype="text/plain">
+            <div>
+                <label for="nameId">Your Full Name:</label>
+                <input id="nameId" type="text" name="yourName" placeholder="Name">
+            </div>
+            <div>
+                <label for="emailId"> Your Email:</label>
+                <input id="emailId" type="email" name="yourEmail" placeholder="Email">
+            </div>
+            <textarea name="yourMessage" id="emailId" cols="30" rows="10"
+                placeholder="Write your message here..."></textarea>
+            <input type="submit" value="send" id="submitBtn">
+    </fieldset>
+
+    </form>
+
+</body>
+
+</html>
